@@ -6,5 +6,4 @@ var_lado=float(input("El es:"))
 var_perimetro=var_base_menor+var_base_mayor+(2*var_lado)
 print("El perímetro es:", var_perimetro)
 var_area=((var_base_menor+var_base_mayor)*var_altura)/2
-print("El área es:",var_perimetro)
-
+print("El área es:",var_area)
