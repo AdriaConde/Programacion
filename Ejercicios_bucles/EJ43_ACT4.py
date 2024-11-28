@@ -3,6 +3,5 @@ palabra=input("Dime una palabra: ")
 contar=0
 
 for contador in range(len(palabra)):
-    print(contador)
-    contar+=1
-print(contar)
+    print("En la posición", contar, "está la", palabra[contar])
+    contar+=1 
